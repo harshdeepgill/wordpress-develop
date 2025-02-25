@@ -109,11 +109,12 @@ if ( ! CUSTOM_TAGS ) {
 		),
 		'br'         => array(),
 		'button'     => array(
-			'disabled'      => true,
-			'name'          => true,
-			'type'          => true,
-			'value'         => true,
-			'popovertarget' => true,
+			'disabled'            => true,
+			'name'                => true,
+			'type'                => true,
+			'value'               => true,
+			'popovertarget'       => true,
+			'popovertargetaction' => true,
 		),
 		'caption'    => array(
 			'align' => true,
@@ -146,6 +147,10 @@ if ( ! CUSTOM_TAGS ) {
 			'open'  => true,
 		),
 		'div'        => array(
+			'align'   => true,
+			'popover' => true,
+		),
+		'dialog'     => array(
 			'align'   => true,
 			'popover' => true,
 		),
