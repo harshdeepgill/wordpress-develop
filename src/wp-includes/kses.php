@@ -151,7 +151,6 @@ if ( ! CUSTOM_TAGS ) {
 			'popover' => true,
 		),
 		'dialog'     => array(
-			'align'   => true,
 			'popover' => true,
 		),
 		'dl'         => array(),
