@@ -368,7 +368,8 @@ if ( ! CUSTOM_TAGS ) {
 		'tt'         => array(),
 		'u'          => array(),
 		'ul'         => array(
-			'type' => true,
+			'type'    => true,
+			'popover' => true,
 		),
 		'ol'         => array(
 			'start'    => true,
