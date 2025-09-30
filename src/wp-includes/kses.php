@@ -151,7 +151,9 @@ if ( ! CUSTOM_TAGS ) {
 			'popover' => true,
 		),
 		'dialog'     => array(
-			'popover' => true,
+			'closedby' => true,
+			'open'     => true,
+			'popover'  => true,
 		),
 		'dl'         => array(),
 		'dt'         => array(),
