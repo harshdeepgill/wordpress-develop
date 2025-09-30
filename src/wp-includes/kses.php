@@ -115,6 +115,7 @@ if ( ! CUSTOM_TAGS ) {
 			'value'               => true,
 			'popovertarget'       => true,
 			'popovertargetaction' => true,
+			'aria-haspopup'       => true,
 		),
 		'caption'    => array(
 			'align' => true,
@@ -149,6 +150,7 @@ if ( ! CUSTOM_TAGS ) {
 		'div'        => array(
 			'align'   => true,
 			'popover' => true,
+			'role'    => true,
 		),
 		'dialog'     => array(
 			'closedby' => true,
@@ -372,6 +374,7 @@ if ( ! CUSTOM_TAGS ) {
 		'ul'         => array(
 			'type'    => true,
 			'popover' => true,
+			'role'    => true,
 		),
 		'ol'         => array(
 			'start'    => true,
