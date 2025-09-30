@@ -150,7 +150,6 @@ if ( ! CUSTOM_TAGS ) {
 		'div'        => array(
 			'align'   => true,
 			'popover' => true,
-			'role'    => true,
 		),
 		'dialog'     => array(
 			'closedby' => true,
